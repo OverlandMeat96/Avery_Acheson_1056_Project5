@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+/*------------SITE CONATINER-----------*/
+
+.hidden {   /* Class to hide titles */
+	display: none;
+}
+
+#siteContainer {   /* Site Dimensions */
+	margin: 0 auto;
+	width: 960px;
+}
+
+body {
+	background-image: url("../images/home_paper_background.jpg");
+}
+
+h2 {   /* Heading 2 */
+	font-size: 32px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	margin-left: 28px;
+}
+
+h3 {   /* Heading 3 */
+	display: flex;
+	justify-content: center;
+	font-size: 28px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	margin: 40px 0px 20px 0px;
+}
+
+h4 {   /* Heading 4 */
+	font-size: 18px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	margin: 5px 0px 10px 0px;
+}
+
+h5 {   /* Heading 5 */
+	font-size: 22px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+
+
+/*----------------HEADER----------------*/
+
+.mainHeader {   /* Header Dimensions */
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	height: 112px;
+	font-size: 24px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	background-color: black;
+}
+
+.logoHeader {   /* Logo in Header */
+	width: 100px;
+	height: 100px;
+	margin: 5px 0px 0px 10px;
+	background-color: white;
+}
+
+.mainNav {   /* Header Navigation */
+	width: 432px;
+	height: 24px;
+	margin: 40px 110px 0px 20px;
+}
+
+.mainNav ul li {   /* Navigation list styling */
+	font-size: 24px;
+	display: inline;
+	cursor: pointer;
+}
+
+.mainNav ul li a {   /* Navigation list styling */
+	color: #fff;
+	text-decoration: none;
+}
+
+.searchBar {   
+	width: 196px;
+	height: 34px;
+	background-color: black;
+	margin: 30px 0px 0px 0px;
+	font-size: 24px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	border: 3px solid white;
+	color: white;
+	display: flex;
+	flex-direction: row;
+}
+
+.magnifyingGlass {
+	width: 28px;
+	height: 28px;
+	margin: 3px 26px 0px 6px;
+	background-color: white;
+	color: black;
+	font-size: 6px;
+}
+
+.searchBar p {   
+	margin-top: 6px;
+}
+
+
+/*---------PRODUCTS_/_Hero_IMAGE--------*/
+
+.heroImg {
+	height: 312px;
+	background-color: black;
+}
+
+/*---------PRODUCTS_/_BEER----------*/
+
+.Beer {
+	height: 990px;
+	margin: 20px 0px 10px 0px;
+	background-color: black;
+}
+
+.series {
+	height: 390px;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: white;
+}
+
+.beerContent {
+	border: 2px solid black;
+	padding: 10px 10px 10px 10px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	background-color: white;
+}
+
+.beerContent p {
+	margin: 20px 0px 10px 0px;
+}
+
+.beerimg {
+	height: 160px;
+	width: 160px;
+	margin: 0px 0px 20px 10px;
+}
+
+.prdctinfo {
+	width: 180px;
+	margin: 0px 0px 10px 0px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+.prdctBtn{
+	margin: 25px 0px 0px 60px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+
+/*----------------FOOTER----------------*/
+
+.mainFooter {   /* Footer Section Dimensions */
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin: 0 auto;
+	width: 960px;
+	height: 112px;
+	background-color: black;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+.logoFooter {   /* Footer Logo */
+	width: 100px;
+	height:100px;
+	margin: 6px 10px 0px 20px;
+	background-color: white;
+}
+
+.footerNav {   /* Footer Navigation */
+	width: 120px;
+	height: 100px;
+	margin: 6px 0px 0px 10px;
+}
+
+.footerNav ul li {   /* Footer Nav List Styling */
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 26px;
+	cursor: pointer;
+}
+
+.footerNav ul li a {   /* Footer Nav List Font Styling */
+	color: white;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	text-decoration: none;
+}
+
+.copyright {   /* Copyright Info Section */
+	width: 240px;
+	height: 16px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	color: white;
+	align-self: flex-end;
+	margin: 0px 0px 0px 100px;
+}
+
+.countrySelect {   /* Country Selection Box */
+	width: 130px;
+	height: 20px;
+	background-color: white;
+	margin: 45px 0px 0px 170px;
+	font-size: 14px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	border: 2px solid white;
+	border-radius: 6px;
+	color: white;
+	background-color: #004310;
+}
+
+.countrySelect p {   /* Country Selection Text */
+	margin: 4px 0px 0px 40px;
+}
