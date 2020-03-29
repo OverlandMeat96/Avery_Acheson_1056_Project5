@@ -1,0 +1,20 @@
+Product Page: 
+
+1.Main Header
+  1.Main Nav
+  2.Hero Image
+  3.Beer
+    1.Classic Series
+    2.Classic Series Content
+      1.Beer #1 Content
+      2.Beer #2 Content
+      3.Beer #3 Content
+      4.Beer #4 Content
+    3.Limited Series
+    4.Limited Series Content
+      1.Beer #1 Content
+      2.Beer #2 Content
+      3.Beer #3 Content
+      4.Beer #4 Content
+2.Main Footer
+  1.Footer Nav
