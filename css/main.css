@@ -2,6 +2,7 @@
 
 /*------------SITE CONATINER-----------*/
 
+@media only screen and (max-width: 640px){
 .hidden {   /* Class to hide titles */
 	display: none;
 }
@@ -39,8 +40,9 @@ h5 {   /* Heading 5 */
 	font-size: 22px;
 	font-family: "Bahnschrift", Arial, sans-serif;
 }
+}
 
-
+@media only screen and (min-width: 320px){
 
 /*----------------HEADER----------------*/
 
@@ -59,12 +61,14 @@ h5 {   /* Heading 5 */
 	height: 100px;
 	margin: 5px 0px 0px 10px;
 	background-color: white;
+	flex: 0 1 220px;
 }
 
 .mainNav {   /* Header Navigation */
 	width: 432px;
 	height: 24px;
 	margin: 40px 110px 0px 20px;
+	flex: 0 1 320px;
 }
 
 .mainNav ul li {   /* Navigation list styling */
@@ -129,9 +133,12 @@ h5 {   /* Heading 5 */
 
 .beerContent {
 	border: 2px solid black;
-	padding: 10px 10px 10px 10px;
+	padding: 5px 5px 5px 5px;
 	font-family: "Bahnschrift", Arial, sans-serif;
 	background-color: white;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+	grid-gap: 20px;
 }
 
 .beerContent p {
@@ -143,18 +150,6 @@ h5 {   /* Heading 5 */
 	width: 160px;
 	margin: 0px 0px 20px 10px;
 }
-
-.prdctinfo {
-	width: 180px;
-	margin: 0px 0px 10px 0px;
-	font-family: "Bahnschrift", Arial, sans-serif;
-}
-
-.prdctBtn{
-	margin: 25px 0px 0px 60px;
-	font-family: "Bahnschrift", Arial, sans-serif;
-}
-
 
 /*----------------FOOTER----------------*/
 
@@ -207,16 +202,16 @@ h5 {   /* Heading 5 */
 .countrySelect {   /* Country Selection Box */
 	width: 130px;
 	height: 20px;
-	background-color: white;
+	background-color: #000;
 	margin: 45px 0px 0px 170px;
 	font-size: 14px;
 	font-family: "Bahnschrift", Arial, sans-serif;
 	border: 2px solid white;
 	border-radius: 6px;
 	color: white;
-	background-color: #004310;
 }
 
 .countrySelect p {   /* Country Selection Text */
 	margin: 4px 0px 0px 40px;
+}
 }
